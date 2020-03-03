@@ -37,8 +37,9 @@ $def = [
         //------------ Forum ---------------------------------------
         'forum' => 'Modules\Forum\Models\Forum',
         'profile' => 'Modules\Forum\Models\Profile',
-        //----------- Customer -------------------------------------
-        'neighbor' => 'Modules\Customer\Model\Customer',
+        //----------- Coupon -------------------------------------
+        'offer' => 'Modules\Coupon\Models\Offer',
+        'product' => 'Modules\Coupon\Models\Product',
     ],
     'roots' => [
         'page',
